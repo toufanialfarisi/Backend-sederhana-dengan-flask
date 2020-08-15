@@ -133,6 +133,5 @@ class ResourcePertamaById(Resource):
 api.add_resource(ResourcePertama, "/coba", methods=["GET", "POST", "DELETE"])
 api.add_resource(ResourcePertamaById, "/coba/<id>", methods=["PUT"])
 
-
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", debug=True)
