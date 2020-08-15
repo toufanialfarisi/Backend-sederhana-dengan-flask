@@ -21,7 +21,7 @@ app = Flask(__name__)
 api = Api(app)
 CORS(app)
 db = SQLAlchemy(app)
-marshal = Marshmallow(app)
+# marshal = Marshmallow(app)
 
 # mengatur file database sqlite nya
 # buat database dengan nama 'db.sqlite'
